@@ -1,0 +1,63 @@
+# Xcode (from gitignore.io)
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# CocoaPod
+Pods/*
+Podfile.lock
+
+# Carthage
+Carthage/*
+
+# others
+*.swp
+!.gitkeep
+.DS_Store
+*.orig
+
+######
+*/.DS_Store
+*.swp
+#
+##CocoaPods
+#Pods/*
+*.orig
+Podfile.lock
+#
+.gitattributes
+#
+build/
+DerivedData/
+#
+## Xcode project files except for the project file
+#*.xcodeproj/*
+#!*.xcodeproj/project.pbxproj
+#!*.xcodeproj/default.*
+#!**/*.xcodeproj/default.*
+#
+#*.pbxuser
+#*.perspective
+#*.perspectivev3
+#
+*/xcuserdatad
+#*.xcsettings
+##bookmarks.xcodeproj/project.xcworkspace/xcuserdata/zono.xcuserdatad/#UserInterfaceState.xcuserstate
+##bookmarks.xcodeproj/project.xcworkspace/xcuserdata/zono.xcuserdatad/#WorkspaceSettings.xcsettings
+#
+## Windows image thumbnail file
+#Thumbs.db
+*.xcuserstate
